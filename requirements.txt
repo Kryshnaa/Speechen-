@@ -1,0 +1,13 @@
+torch
+torchaudio
+datasets
+fsspec[http]
+librosa
+soundfile
+matplotlib
+tqdm
+pystoi
+pesq
+speechbrain
+transformers
+huggingface_hub

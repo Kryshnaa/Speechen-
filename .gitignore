@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+.DS_Store
+
+checkpoints/
+pretrained_models/
+
+samples_gan/
+samples_diffusion/
+test_samples/
+
