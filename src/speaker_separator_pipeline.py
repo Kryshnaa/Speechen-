@@ -1,9 +1,14 @@
 import os
 import argparse
+# pyrefly: ignore [missing-import]
 import torch
+# pyrefly: ignore [missing-import]
 import torchaudio
+# pyrefly: ignore [missing-import]
 import numpy as np
+# pyrefly: ignore [missing-import]
 import matplotlib.pyplot as plt
+# pyrefly: ignore [missing-import]
 from transformers import pipeline
 
 # Suppress warnings for clean output
@@ -138,6 +143,7 @@ def run_pipeline(args):
         
     # Step 2: Separate speech sources
     print(f"Loading speech separation model: {args.sep_model}...")
+    # pyrefly: ignore [missing-import]
     from speechbrain.inference.separation import SepformerSeparation
     
     # SpeechBrain has a bug with 'mps' device where self.device_type is not set.
